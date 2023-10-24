@@ -84,7 +84,6 @@ main{
 .sponsors div{
     display: flex;
     justify-content: space-between;
-    border: 2px dotted violet;
     padding: 2rem;
 }
 
@@ -178,3 +177,22 @@ main{
     border: none;
 }
 /* footer section  */
+footer{
+    height: 23.9rem;
+    background: #0A0826;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+footer h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+footer p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #D9DBE1;
+}
