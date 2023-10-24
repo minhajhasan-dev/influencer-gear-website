@@ -69,8 +69,11 @@ main{
     font-weight: 700;
     border: none;
 }
-.hero-img img{
+.hero-img {
     background-image: url(images/Circle\ design.svg);
+}
+.hero-img img{
+    margin-top: 2.5rem;
 }
 /* sponsors section styles  */
 .sponsors{
@@ -86,3 +89,92 @@ main{
 }
 
 /* collection section style  */
+.collection h1{
+    font-size:2.8rem ;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.item{
+    /* border: 0.1rem solid black; */
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    width: 32.9rem;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.item h2{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #18191F;
+    margin-bottom: 0.6rem;
+}
+.item h3{
+    font-weight: lighter;
+    margin-bottom: 0.6rem;
+    font-size: 2.4rem;
+}
+
+.item p{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #787885;
+}
+.item .rating{
+    font-size: 1.3rem;
+    color: #FB8200;
+}
+.seemore-container{
+    width: 90%;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    
+}
+.seemore{
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(224, 44, 109, 0.87);
+}
+/* featured section styles  */
+.featured-product{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+    align-items: center;
+    
+}
+.feature-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: flex-start;
+    
+}
+.feature-info h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+
+}
+.feature-info p{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #6C6C6C;
+}
+.feature-info .join-btn{
+    background: #E02C6D;
+    padding: 1rem 2.4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+}
+/* footer section  */
