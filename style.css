@@ -209,12 +209,18 @@ footer p{
         flex-direction: column-reverse;
         padding: 2rem;
     }
+    .hero-text h1{
+        font-size: 3rem;
+    }
     .hero-img {
         background-image: none;
     }
     .hero-img img{
         width: 35rem;
         
+    }
+    .hero-text{
+        text-align: center;
     }
     .sponsors div{
         flex-direction: column;
