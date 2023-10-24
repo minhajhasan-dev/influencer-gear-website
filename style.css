@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+/* nav section styles  */
+nav{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 9.6rem;
+    margin-bottom: 5.02rem;
+}
+nav li{
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+}
+nav ul .logo{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+nav ul .menu{
+    font-size: 1.6rem;
+    display: flex;
+    gap: 3.4rem;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+/* main styles  */
+main{
+    width:70%;
+    margin: 0 auto;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+}
+.hero-text h1{
+    font-size: 5.4rem;
+}
+.hero-text p{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.pb{
+    border-radius: 4.1rem;
+    background: #E02C6D;
+    padding: 1rem 2.4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+}
+.hero-img img{
+    background-image: url(images/Circle\ design.svg);
+}
+/* sponsors section styles  */
+.sponsors{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.sponsors div{
+    display: flex;
+    justify-content: space-between;
+    border: 2px dotted violet;
+    padding: 2rem;
+}
+
+/* collection section style  */
